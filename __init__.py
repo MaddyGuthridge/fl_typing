@@ -16,7 +16,7 @@ try:
     import typing
     import abc
 except ImportError:
-    directory = __file__.removesuffix("\\__init__.py")
-
+    # Calculate directory from this filename
+    directory = __file__.removesuffix("__init__.py")[:-1]
     # Add right to the start of the path
     sys.path.insert(0, directory)
