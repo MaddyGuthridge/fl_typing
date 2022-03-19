@@ -11,7 +11,10 @@ class _AnnotationType:
         return object
 
 TypeGuard = _AnnotationType('TypeGuard')
+Concatenate = _AnnotationType('Concatenate')
+Self = _AnnotationType('Self')
 
 class ParamSpec:
     def __init__(self, *args, **kwargs) -> None:
-        pass
+        self.args = ()
+        self.kwargs = ()
