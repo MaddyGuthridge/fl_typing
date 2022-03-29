@@ -15,6 +15,8 @@ import sys
 try:
     import typing
     import abc
+    del typing
+    del abc
 except ImportError:
     # Calculate directory from this filename
     directory = __file__.removesuffix("__init__.py")[:-1]
