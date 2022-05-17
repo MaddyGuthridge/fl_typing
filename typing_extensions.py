@@ -16,6 +16,7 @@ class _AnnotationType:
 TypeGuard = _AnnotationType('TypeGuard')
 Concatenate = _AnnotationType('Concatenate')
 Self = _AnnotationType('Self')
+TypeAlias = _AnnotationType('TypeAlias')
 
 
 class ParamSpec:

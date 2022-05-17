@@ -35,7 +35,6 @@ Callable = _AnnotationType('Callable')
 Union = _AnnotationType('Union')
 Type = _AnnotationType('Type')
 Generic = _AnnotationType('Generic')
-TypeAlias = _AnnotationType('TypeAlias')
 
 
 class Protocol:
