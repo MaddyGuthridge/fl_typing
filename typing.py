@@ -36,6 +36,7 @@ Union = _AnnotationType('Union')
 Type = _AnnotationType('Type')
 Iterator = _AnnotationType('Iterator')
 Generic = _AnnotationType('Generic')
+Sequence = _AnnotationType('Sequence')
 
 
 class Protocol:
