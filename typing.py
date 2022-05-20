@@ -34,6 +34,7 @@ Optional = _AnnotationType('Optional')
 Callable = _AnnotationType('Callable')
 Union = _AnnotationType('Union')
 Type = _AnnotationType('Type')
+Iterator = _AnnotationType('Iterator')
 Generic = _AnnotationType('Generic')
 
 
