@@ -1,7 +1,7 @@
 """
 FL-Python-Typing
 
-Initialise substitute modules to add them to the path variable, so that they
+Initialize substitute modules to add them to the path variable, so that they
 can be imported normally.
 
 WARNING: The substitute modules aren't complete replacements, and should only
