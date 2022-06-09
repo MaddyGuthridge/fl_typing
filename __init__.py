@@ -14,9 +14,15 @@ import sys
 
 try:
     import typing
+    import typing_extensions
+    import random
     import abc
+    import fl_classes
     del typing
+    del typing_extensions
+    del random
     del abc
+    del fl_classes
 except ImportError:
     # Calculate directory from this filename
     directory = __file__.removesuffix("__init__.py")[:-1]
