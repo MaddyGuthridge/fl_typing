@@ -29,6 +29,7 @@ class _AnnotationType:
 
 
 Any = _AnnotationType('Any')
+Literal = _AnnotationType('Literal')
 NoReturn = _AnnotationType('NoReturn')
 Optional = _AnnotationType('Optional')
 Callable = _AnnotationType('Callable')
