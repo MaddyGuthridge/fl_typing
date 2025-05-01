@@ -13,11 +13,12 @@ This code is licensed under the GNU GPL v3
 import sys
 
 try:
-    import typing
-    import typing_extensions
-    import random
     import abc
+    import random
+    import typing
+
     import fl_classes
+    import typing_extensions
     del typing
     del typing_extensions
     del random

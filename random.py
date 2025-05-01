@@ -6,7 +6,8 @@ module
 """
 
 import _random
-from typing import TypeVar, Sequence
+from collections.abc import Sequence
+from typing import TypeVar
 
 T = TypeVar('T')
 rng = _random.Random()
